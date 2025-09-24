@@ -3,7 +3,7 @@ use std::net::UdpSocket;
 fn main() {
     let socket = UdpSocket::bind("0.0.0.0:0").unwrap(); // bind to any available port;
 
-    socket.connect("127.0.0.1:2700").unwrap();
+    socket.connect("3.141.190.248:2700").unwrap();
 
     let message = b"Test message";
 
